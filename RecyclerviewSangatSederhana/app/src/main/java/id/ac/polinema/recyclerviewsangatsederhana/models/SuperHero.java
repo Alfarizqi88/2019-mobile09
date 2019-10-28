@@ -3,6 +3,9 @@ package id.ac.polinema.recyclerviewsangatsederhana.models;
 public class SuperHero {
     public String HeroName;
 
+    public SuperHero() {
+    }
+
     public SuperHero(String heroName) {
         this.HeroName = heroName;
     }

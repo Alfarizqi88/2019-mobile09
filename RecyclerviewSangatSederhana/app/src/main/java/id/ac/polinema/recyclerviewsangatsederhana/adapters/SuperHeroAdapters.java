@@ -17,6 +17,7 @@ import id.ac.polinema.recyclerviewsangatsederhana.models.SuperHero;
 public class SuperHeroAdapters extends RecyclerView.Adapter<SuperHeroAdapters.MyViewHolder> {
     List<SuperHero> heroList;
 
+
     public SuperHeroAdapters(List<SuperHero> heroList) {
         this.heroList = heroList;
     }
