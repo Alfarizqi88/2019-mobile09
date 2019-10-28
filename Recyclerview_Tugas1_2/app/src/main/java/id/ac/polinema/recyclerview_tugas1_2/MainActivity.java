@@ -1,6 +1,7 @@
 package id.ac.polinema.recyclerview_tugas1_2;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
         RaketAdapters raketAdapters = new RaketAdapters(raketModelsList);
         rvraket.setAdapter(raketAdapters);
-        rvraket.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false));
+//        rvraket.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false));
+        rvraket.setLayoutManager(new GridLayoutManager(this, 2));
+
     }
 }

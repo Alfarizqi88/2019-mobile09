@@ -1,47 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    >
-
+    android:orientation="vertical">
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="YONEX"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30dp"
         android:textStyle="bold"></TextView>
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="315dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="YONEX"-->
+<!--        android:textColor="@color/colorPrimaryDark"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold"></TextView>-->
 
     <ImageView
         android:id="@+id/gambar"
         android:layout_width="match_parent"
-        android:layout_height="282dp"
-        android:layout_gravity="center"></ImageView>
+        android:layout_height="180dp"
+        ></ImageView>
 
     <TextView
         android:id="@+id/merk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textColor="@color/colorAccent"
         android:textSize="18dp"
-        android:textStyle="bold"
-        android:textColor="@color/colorAccent">
-    </TextView>
+        android:textStyle="bold"></TextView>
+
     <TextView
         android:id="@+id/frame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="14dp">
-    </TextView>
+        android:textSize="14dp"></TextView>
+
     <TextView
         android:id="@+id/color"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="14dp">
-    </TextView>
+        android:textSize="14dp"></TextView>
+
 
 </LinearLayout>
